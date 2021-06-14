@@ -1,7 +1,7 @@
 {
   "name": "codemirror-lang-elixir",
   "description": "A codemirror.next mode for elixir.",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "index.js",
   "type": "module",
   "types": "./index.d.ts",
@@ -19,18 +19,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xCloudzx/codemirror-lang-elixir.git"
+    "url": "git+https://github.com/sachinraja/codemirror-lang-elixir.git"
   },
   "keywords": [
     "codemirror",
     "elixir"
   ],
-  "author": "Sachin Raja",
+  "author": "Sachin Raja <sachinraja2349@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xCloudzx/codemirror-lang-elixir/issues"
+    "url": "https://github.com/sachinraja/codemirror-lang-elixir/issues"
   },
-  "homepage": "https://github.com/xCloudzx/codemirror-lang-elixir#readme",
+  "homepage": "https://github.com/sachinraja/codemirror-lang-elixir#readme",
   "dependencies": {
     "@codemirror/stream-parser": "^0.18.2"
   },
