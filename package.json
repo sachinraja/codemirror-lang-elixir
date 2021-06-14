@@ -1,7 +1,7 @@
 {
   "name": "codemirror-lang-elixir",
   "description": "A codemirror.next mode for elixir.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "index.js",
   "type": "module",
   "types": "./index.d.ts",
