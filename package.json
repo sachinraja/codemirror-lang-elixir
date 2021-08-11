@@ -32,10 +32,9 @@
   },
   "homepage": "https://github.com/sachinraja/codemirror-lang-elixir#readme",
   "dependencies": {
-    "@codemirror/stream-parser": "^0.18.2"
+    "@codemirror/stream-parser": "^0.19.1"
   },
   "devDependencies": {
-    "rollup": "^2.46.0",
-    "typescript": "^4.2.4"
+    "rollup": "^2.56.2"
   }
 }
