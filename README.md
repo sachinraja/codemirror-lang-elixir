@@ -1,12 +1,15 @@
 # codemirror-lang-elixir
-A codemirror.next mode for elixir. Uses the code from [codemirror-mode-elixir](https://github.com/ianwalter/codemirror-mode-elixir), which is not compatible with codemirror.next/codemirror 6.
+A CodeMirror 6 mode for elixir. Most of the code is from [codemirror-mode-elixir](https://github.com/ianwalter/codemirror-mode-elixir), which was not compatible with v6.
 
 ## Installation
-Run `npm install codemirror-lang-elixir`
+```shell
+npm install codemirror-lang-elixir @codemirror/stream-parser
+```
 
 ## Usage
-Treat the same way as a [legacy-modes](https://github.com/codemirror/legacy-modes) import:
+Treat it the same way as a [legacy-modes](https://github.com/codemirror/legacy-modes) import:
 ```js
+import { StreamLanguage } from '@codemirror/stream-parser'
 import { elixir } from 'codemirror-lang-elixir'
 
 const lang = StreamLanguage.define(elixir)
