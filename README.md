@@ -3,13 +3,13 @@ A CodeMirror 6 mode for elixir. Most of the code is from [codemirror-mode-elixir
 
 ## Installation
 ```shell
-npm install codemirror-lang-elixir @codemirror/stream-parser
+npm install codemirror-lang-elixir @codemirror/language
 ```
 
 ## Usage
 Treat it the same way as a [legacy-modes](https://github.com/codemirror/legacy-modes) import:
 ```js
-import { StreamLanguage } from '@codemirror/stream-parser'
+import { StreamLanguage } from '@codemirror/language'
 import { elixir } from 'codemirror-lang-elixir'
 
 const lang = StreamLanguage.define(elixir)
