@@ -242,10 +242,10 @@ const config = () => {
       return null
     }
     if (ch === '-' && stream.eat('>')) {
-      return 'arrow'
+      return 'operator'
     }
     if (ch === '|' && stream.eat('>')) {
-      return 'pipe'
+      return 'operator'
     }
     if (/[=+\-\/*:\.^%<>~|]/.test(ch)) {
       if (ch === '.' && !stream.eatWhile(/[=+\-\/*:\.^%<>~|]/)) {
